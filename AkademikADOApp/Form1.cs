@@ -41,7 +41,23 @@ namespace AkademikADOApp
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                if (conn != null && conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                    lblStatus.Text = "Status : Database Disconnected";
+                    MessageBox.Show("Koneksi ke database ditutup!");
+                }
+                else
+                {
+                    MessageBox.Show("Database belum terkoneksi.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Gagal menutup koneksi : " + ex.Message);
+            }
         }
     }
 }
