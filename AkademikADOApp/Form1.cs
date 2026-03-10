@@ -21,7 +21,7 @@ namespace AkademikADOApp
         SqlConnection conn; // mengoneksikan sql
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); //feat: initialize Form1 constructor
         }
 
         private void button1_Click(object sender, EventArgs e)
