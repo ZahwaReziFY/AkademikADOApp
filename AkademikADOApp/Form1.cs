@@ -14,7 +14,7 @@ namespace AkademikADOApp
     public partial class Form1 : Form //feat: create Form1 class for main form
     {
         //Connection string
-        string connString = 
+        string connString = //feat: add SQL Server connection string
             "Data Source=(local)\\SQLEXPRESS;Initial Catalog=DBAkademikADO;Integrated Security=True";
 
         //Object SQLconnection
