@@ -15,7 +15,7 @@ namespace AkademikADOApp
     {
         //Connection string
         string connString = //feat: add SQL Server connection string
-            "Data Source=(local)\\SQLEXPRESS;Initial Catalog=DBAkademikADO;Integrated Security=True";
+            "Data Source=(local)\\SQLEXPRESS;Initial Catalog=DBAkademikADO;Integrated Security=True"; //memasukan sql server
 
         //Object SQLconnection
         SqlConnection conn; 
