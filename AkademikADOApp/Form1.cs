@@ -24,7 +24,7 @@ namespace AkademikADOApp
             InitializeComponent(); //feat: initialize Form1 constructor
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //feat: add button1 click event handler
         {
             try
             {
