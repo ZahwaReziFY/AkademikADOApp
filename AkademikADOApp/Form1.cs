@@ -35,7 +35,7 @@ namespace AkademikADOApp
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Koneksi gagal : " + ex.Message);
+                MessageBox.Show("Koneksi gagal : " + ex.Message); //membuat pesan koneksi gagal
             }
         }
 
