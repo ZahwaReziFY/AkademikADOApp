@@ -11,7 +11,7 @@ using System.Data.SqlClient;
 
 namespace AkademikADOApp
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form 
     {
         //Connection string
         string connString = 
