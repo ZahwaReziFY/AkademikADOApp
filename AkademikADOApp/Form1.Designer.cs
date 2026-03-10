@@ -28,48 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnConnect = new System.Windows.Forms.Button();
+            this.btnDisconnect = new System.Windows.Forms.Button();
+            this.lblStatus = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnConnect
             // 
-            this.button1.Location = new System.Drawing.Point(581, 344);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 32);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Connect Database";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnConnect.Location = new System.Drawing.Point(581, 344);
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.Size = new System.Drawing.Size(185, 32);
+            this.btnConnect.TabIndex = 0;
+            this.btnConnect.Text = "Connect Database";
+            this.btnConnect.UseVisualStyleBackColor = true;
+            this.btnConnect.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnDisconnect
             // 
-            this.button2.Location = new System.Drawing.Point(117, 344);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(180, 32);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Disconnect Database";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnDisconnect.Location = new System.Drawing.Point(117, 344);
+            this.btnDisconnect.Name = "btnDisconnect";
+            this.btnDisconnect.Size = new System.Drawing.Size(180, 32);
+            this.btnDisconnect.TabIndex = 1;
+            this.btnDisconnect.Text = "Disconnect Database";
+            this.btnDisconnect.UseVisualStyleBackColor = true;
+            this.btnDisconnect.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label1
+            // lblStatus
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(391, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Status";
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Location = new System.Drawing.Point(391, 95);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(56, 20);
+            this.lblStatus.TabIndex = 3;
+            this.lblStatus.Text = "Status";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblStatus);
+            this.Controls.Add(this.btnDisconnect);
+            this.Controls.Add(this.btnConnect);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -79,9 +79,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnConnect;
+        private System.Windows.Forms.Button btnDisconnect;
+        private System.Windows.Forms.Label lblStatus;
     }
 }
 
