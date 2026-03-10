@@ -31,7 +31,7 @@ namespace AkademikADOApp
                 conn = new SqlConnection(connString); //feat: create SqlConnection instance
                 conn.Open();
                 lblStatus.Text = "Status : Database Connected"; //membuat status database terkoneksi
-                MessageBox.Show("Koneksi ke database berhasil!");
+                MessageBox.Show("Koneksi ke database berhasil!"); //membuat pesan koneksi ke database berhasil
             }
             catch (Exception ex)
             {
