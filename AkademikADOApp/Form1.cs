@@ -18,7 +18,7 @@ namespace AkademikADOApp
             "Data Source=(local)\\SQLEXPRESS;Initial Catalog=DBAkademikADO;Integrated Security=True"; //memasukan sql server
 
         //Object SQLconnection
-        SqlConnection conn; 
+        SqlConnection conn; // mengoneksikan sql
         public Form1()
         {
             InitializeComponent();
